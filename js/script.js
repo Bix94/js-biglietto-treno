@@ -11,9 +11,6 @@ document.getElementById('eta').innerHTML = eta;
 var km = parseInt(prompt("Inserisci i km da percorrere."));
 document.getElementById('km').innerHTML = km;
 
-var tot= prezzo
-document.getElementById('tot').innerHTML = tot;
-
 
 var prezzo = km * 0.21;
 var prezzoScontato1 = prezzo - prezzo * 20 / 100
@@ -26,3 +23,6 @@ if ( eta < 18) {
 } else {
   prezzo = prezzo
 }
+
+var tot = prezzo
+document.getElementById('tot').innerHTML = tot;

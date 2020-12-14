@@ -4,12 +4,25 @@
 // sconto 20% U18
 // sconto 40% O65
 
-var eta = parseInt(prompt("Inserisci la tua età.""));
-var km = parseInt(prompt("Inserisci i km da percorrere."))
 
+var eta = parseInt(prompt('Inserisci qui la tua età'));
+document.getElementById('eta').innerHTML = eta;
 
+var km = parseInt(prompt("Inserisci i km da percorrere."));
+document.getElementById('km').innerHTML = km;
+
+var tot= prezzo
+document.getElementById('tot').innerHTML = tot;
 
 
 var prezzo = km * 0.21;
 var prezzoScontato1 = prezzo - prezzo * 20 / 100
 var prezzoScontato2 = prezzo - prezzo * 40 / 100
+
+if ( eta < 18) {
+  prezzo = prezzoScontato1
+} else if ( eta > 65) {
+  prezzo = prezzoScontato2
+} else {
+  prezzo = prezzo
+}

@@ -5,17 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
-    <span>La tua età è: </span><span><strong id="eta"></strong></span>
-  </div>
-  <div>
-    <span>Quanti km devi percorrere: </span><span><strong id="km"></strong></span>
-  </div>
-  <div>
-    <span>Totale da pagare: </span><span><strong id="tot"></strong></span>
-  </div>
+  <header>
+    <div class="head">
+      <div class="logo">
+        <img class="small" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/JR_logo_JRgroup.svg/1200px-JR_logo_JRgroup.svg.png" alt="">
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>Offerte</li>
+          <li>Destinazioni</li>
+          <li>Servizi</li>
+          <li>Programma</li>
+        </ul>
+      </div>
+      <div class="lingua">
+        <div class="">
+          <div class="">
+            <img src="https://www.guidamarche.com/italy.jpg" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/280px-Flag_of_Japan.svg.png" alt="">
+          </div>
+          <div class="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="">
+            <img src="https://www.transumanzapedali.it/wp-content/uploads/2020/07/spain-2906824_640.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="dati">
+        <h2>Cliente Privato</h2>
+        <div>
+          <span>La tua età è: </span><span><strong id="eta"></strong></span>
+        </div>
+        <div>
+          <span>Quanti km devi percorrere: </span><span><strong id="km"></strong></span>
+        </div>
+        <div>
+          <span>Totale da pagare: </span><span><strong id="tot"></strong></span>
+        </div>
+        <p>Inserisci il tuo codice JR</p>
+        <span id="info">I biglietti sono nominativi. Ti invitiamo a compilare i dati richiesti per ogni passeggero della prenotazione.
+          *ai sensi del DPCM del 26 aprile 2020</span>
+      </div>
+    </div>
+  </main>
+
 
   <script src="js/script.js"></script>
 </body>

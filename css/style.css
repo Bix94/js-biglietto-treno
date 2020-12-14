@@ -1,0 +1,78 @@
+header{
+  background-color: red;
+  height: 120px;
+  border-bottom: 3px solid black
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  padding-top: 10px;
+}
+.small{
+  height: 100px;
+}
+
+ul li {
+  display: inline;
+}
+ li {
+   padding-right:  10px;
+   font-size: 30px;
+ }
+
+li:hover{
+  color: white;
+  text-decoration: underline;
+}
+.lingua{
+  margin-right: 20px;
+}
+.lingua img {
+  width:  40px;
+}
+
+main{
+  background-color: red;
+  height: 370px;
+  border-bottom: 3px solid black;
+}
+
+.container{
+  background-color: white;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  width: 80%;
+  margin: 0 auto;
+  height: 370px;
+  border-bottom: 3px solid black;
+}
+.dati{
+  padding: 20px 20px;
+}
+
+h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+span{
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+p{
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+
+#info {
+  display: inline-block;
+  margin-top: 50px;
+  text-align: center;
+}

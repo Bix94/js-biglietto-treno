@@ -13,8 +13,8 @@ document.getElementById('km').innerHTML = km;
 
 
 var prezzo = km * 0.21;
-var prezzoScontato1 = prezzo - prezzo * 20 / 100
-var prezzoScontato2 = prezzo - prezzo * 40 / 100
+var prezzoScontato1 = prezzo - prezzo * 20 / 100;
+var prezzoScontato2 = prezzo - prezzo * 40 / 100;
 
 if ( eta < 18) {
   prezzo = prezzoScontato1
@@ -24,5 +24,9 @@ if ( eta < 18) {
   prezzo = prezzo
 }
 
-var tot = prezzo
-document.getElementById('tot').innerHTML = tot;
+var tot = prezzo;
+
+// document.getElementById('tot').innerHTML = Math.trunc(tot: 2) + " $" ;
+// document.getElementById('tot').innerHTML = Math.round(prezzo) + " $" ;
+document.getElementById('tot').innerHTML = tot.toFixed(2);
+// meglio trunc che non converte i numeri in stringa
